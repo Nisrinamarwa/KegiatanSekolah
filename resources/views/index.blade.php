@@ -1,4 +1,4 @@
-@extends('welcome')
+@extends('layouts.app')
 
 @section('content')
 
@@ -49,5 +49,4 @@
     </div>
     <a href="{{route('kegiatan.tampilkan')}}">Cek Kegiatan</a>
 </div>
-
 @endsection

@@ -10,6 +10,6 @@ class ResoultController extends Controller
     public function show($id)
     {
         $peserta = Register::findOrFail($id);
-        return view('barcode', compact('peserta'));
+        return view('cetak.all.barcode', compact('peserta'));
     }
 }

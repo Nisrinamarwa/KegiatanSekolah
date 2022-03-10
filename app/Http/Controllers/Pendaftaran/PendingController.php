@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Pendaftaran;
 use App\Register;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 
 class PendingController extends Controller
 {
